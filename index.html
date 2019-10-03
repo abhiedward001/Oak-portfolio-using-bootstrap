@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this is my final project</title>
+	<link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/0561ca8864.js" crossorigin="anonymous"></script>
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 50em;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #7beec7;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+.submenu a{
+	margin-left: -20px;
+
+
+}
+</style>
+</head>
+<body>
+
+<div class="container mt-5">
+	<div id="mySidepanel" class="sidepanel">
+		<nav class="navbar navbar-light bg-black">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#" >HOME</a>
+
+  <a href="#">About</a>
+  <a href="#">PORTFOLIO</a>
+  <a href="#">BLOG</a>
+  <a href="#">Content</a>
+ <div class="navicn">
+ <a href="#"><span style="font-size: 10px;"><i class="fab fa-facebook-f"></i></span></a>
+ <a href="#"><span style="font-size: 10px;"><i class="fab fa-twitter"></i></span></a>
+ <a href="#"><span style="font-size: 10px;"><i class="fab fa-flickr"></i></span></a>
+ <a href="#"><span style="font-size: 10px;"><i class="fab fa-dribbble-square"></i></span></a>
+ <a href="#"><span style="font-size: 10px;"><i class="fab fa-pinterest"></i></span></a>
+ <a href="#"><span style="font-size: 10px;"><i class="fab fa-linkedin-in"></i></span></a>
+ 
+<p>T: 003 124 115
+E: info@mail.com</p>
+</div>
+</div>
+
+<button class="openbtn" onclick="openNav()">☰</button>  
+ <img id="logo" src="img/logo.png">
+<div class="slider">
+<div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="3000">
+        <img src="img/slider/image_1.jpg" class="d-block w-100 zoom" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="img/slider/image_2.jpg" class="d-block w-100 zoom" alt="...">
+    </div>
+    <div class="carousel-item"data-interval="3000">
+      <img src="img/slider/image_3.jpg" class="d-block w-100 zoom" alt="...">
+  </div>
+      <div class="carousel-item"data-interval="3000">
+      <img src="img/slider/image_4.jpg" class="d-block w-100 zoom" alt="...">
+  </div>
+    
+  </div>
+</div>
+</div>
+<div class="slider_content">
+<div>PURE &nbsp; <span style="background-color:#7beec7">ELEGANCE</span></div>
+
+</div>
+<div class="history">
+    <div class="row">
+  <div class="col-lg-6">
+   <div class="hcontent">
+   <h1><span style="border-bottom:2px solid black ">HIS</span>TORY OF AGENCY</h1><br>
+   <br><br>
+    <strong>WHO LOVES OR PURSUES OR DESIRES TO OBTAIN PAIN OF<br> ITSELF, BUT BECAUSE OCCASIONALLY CIRCUMSTANCES <br>OCCUR AND PAIN CAN PROCURE HIM SOME GREAT <br>PLEASURE</strong><br><br><br>
+
+    <p>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore. </p></div>
+  </div>
+   <div class="col-lg-6">
+    <div class="slider">
+
+     <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+       <div class="carousel-inner">
+         <div class="carousel-item active" data-interval="1500">
+           <img src="img/about_img.jpg" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item" data-interval="1500">
+           <img src="img/about_img2.jpg" class="d-block w-100" alt="...">
+         </div>
+         <div class="carousel-item"data-interval="1500">
+           <img src="img/about_img3.jpg" class="d-block w-100" alt="...">
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</div>
+
+<div class="about " >
+<h3><span style="border-bottom:2px solid black ">WHY</span> &nbsp;CHOOSE &nbsp;US?</h3><br>
+<h5>Except to obtain some advantage from it</h5><br>
+<div class="row">
+  <div class="col-lg-4">
+  <span style="border-bottom:2px solid black;padding-bottom:10px "><i class="fas fa-pencil-ruler"></i></span><br><br>
+    <h5>BRANDING</h5><br>
+    <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because procure him.</p>
+  </div>
+  <div class="col-lg-4">
+   <span style="border-bottom:2px solid black;padding-bottom:10px "> <i class="fas fa-globe"></i></span><br><br>
+   <h5>PLAN OF WORK</h5><br>
+   <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because procure him.</p>
+
+
+  </div>
+  <div class="col-lg-4">
+    <span style="border-bottom:2px solid black;padding-bottom:10px "><i class="fas fa-brush"></i></span><br><br>
+    <h5>ILUSTRATION</h5><br>
+    <p>Expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because procure him.</p>
+  </div>
+
+</div>
+</div>
+
+<div class="wrk">
+  <h3> <span style="border-bottom:2px solid black ">OUR </span>WORK</h3><br>
+  <h5>Laborious to obtain some advantage from it</h5><br><br>
+  <div class="wrknav">
+ <button id="hambrg" onclick="myFunction()">☰</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <span style="font-size: 18px;"id="hbtxt"><span style="color:#7beec7;">All</span>&nbsp;&nbsp;&nbsp; Branding&nbsp;&nbsp;&nbsp; Web Design&nbsp;&nbsp;&nbsp; Graphic Design</span></div>
+
+
+
+  </div>
+<br>
+<div class="gridimg">
+  <div class="row">
+   <div class="col-lg-4 clm">
+    <div class="thumbnail">
+    <img src="img/home-portfolio/img_1.jpg" class="image">
+       </div></div>
+   <div class="col-lg-4 clm">
+    <div class="thumbnail">
+    <img src="img/home-portfolio/img_2.jpg" class="image">
+       </div></div>
+  <div class="col-lg-4 clm">
+    <div class="thumbnail">
+    <img src="img/home-portfolio/img_3.jpg" class="image">
+       </div></div>
+  <div class="col-lg-4 clm">
+    <div class="thumbnail">
+    <img src="img/home-portfolio/img_4.jpg" class="image">
+       </div></div>
+  <div class="col-lg-4 clm">
+    <div class="thumbnail">
+    <img src="img/home-portfolio/img_5.jpg" class="image">
+       </div></div>
+  <div class="col-lg-4 clm">
+    <div class="thumbnail">
+    <img src="img/home-portfolio/img_6.jpg" class="image">
+       </div></div>
+ <div class="col-lg-4 clm">
+   <div class="thumbnail">
+    <img src="img/home-portfolio/img_7.jpg" class="image">
+       </div></div>
+  <div class="col-lg-4 clm">
+    <div class="thumbnail">
+    <img src="img/home-portfolio/img_8.jpg" class="image">
+       </div></div>
+  <div class="col-lg-4 clm">
+    <div class="thumbnail">
+    <img src="img/home-portfolio/img_9.jpg" class="image">
+       </div></div>
+  </div>
+</div>
+
+<div class="refresh">
+  <i id="icn"class="fas fa-sync" onclick="icon()"></i>
+</div>
+  <div class="NL-n-mail ">
+    <div class="NL"> 
+      STAY &nbsp; INFORMED <br>
+      WITH &nbsp;OUR &nbsp;<span style="font-weight: bolder;">NEWSLETTER</span>
+    </div>
+    <div class="mail">
+      <div class="inmail"><input type="email" placeholder="ENTER YOUR EMAIL"><br><br><br>
+       <span style="background-color: #7beec7"><a href="#"> SUBSCRIBE</a></span>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+ </div>
+<div class="jumbotron jumbotron-fluid mt-5  mb-0 overflow-hidden ">
+  <div class="container ">
+    <div class="row">
+  <div class="col-lg-4">
+    <h5>O.A.K THEME</h5><br>
+      <span style="color:grey;">City 35 AM<br>
+      Street 1395 p.n<br>
+      your Country<br></span>
+    </div>
+
+   <div class="col-lg-4 pl-5">
+<span id="icn"style="font-size: 10px;padding-left: 7em"><a href="#"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;<a href="#"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;<a href="#"><i class="fab fa-flickr"></i></a>&nbsp;&nbsp;<a href="#"><i class="fab fa-dribbble-square"></i></a>&nbsp;&nbsp;<a href="#"><i class="fab fa-pinterest"></i></a>&nbsp;&nbsp;<a href="#"><i class="fab fa-linkedin-in"></i></a></span><br><br><br><br>
+     
+<span style="color:grey;">© 2015 OAK, ALL RIGHTS RESERVED</span>
+</div>
+<div class="col-lg-4 info">
+
+  <h5>CONTACT INFO</h5><br>
+   <span style="color:grey;"> T:003 124 115 <br>
+    E:info@mail.com <br>
+    W:www.website.com <br></span>
+</div>
+</div>
+
+  </div>
+</div>
+<script>
+  function icon(){
+    var x=document.getElementById("icn");
+    x.style.display="none";
+  }
+  function myFunction() {
+  var x = document.getElementById("hbtxt");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+ 
+}
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "500px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
